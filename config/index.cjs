@@ -63,17 +63,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '汪汪队副队长',
+      name: '汪汪队队长',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ozFlF6kBbGUhfP-EV2WNnujocyyY',
+      id: 'ozFlF6uP9hRuC70cvgYVFrprJXDg',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: '8zaPNizm-k0H80nw4NUB_NDIaLYAEFF-imKcjI3MqT4',
       // 所在省份
-      province: '辽宁省',
+      province: '北京市',
       // 所在城市
-      city: '沈阳市',
+      city: '海淀区',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '11-26',
+      horoscopeDate: '05-21',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -82,25 +82,25 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '汪汪队副队长', year: '2004', date: '11-26',
+          type: '*生日', name: '汪汪队队长', year: '2002', date: '04-10',
         },
         {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '被搭讪纪念日', year: '2020', date: '09-03',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '汪汪队副队长', year: '1996', date: '09-31',
+          type: '节日', name: '恋爱纪念日', year: '2002', date: '05-21',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '结婚纪念日', year: '2021', date: '09-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2021-05-21' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-07-16' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
@@ -239,9 +239,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '东北',
+  PROVINCE: '北京市',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '沈阳',
+  CITY: '海淀区',
 
   /** 重要节日相关 */
 
