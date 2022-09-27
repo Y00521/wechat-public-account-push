@@ -69,9 +69,9 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: '8zaPNizm-k0H80nw4NUB_NDIaLYAEFF-imKcjI3MqT4',
       // 所在省份
-      province: '东北',
+      province: '辽宁省',
       // 所在城市
-      city: '沈阳',
+      city: '沈阳市',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '11-26',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
